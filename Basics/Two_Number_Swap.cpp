@@ -16,6 +16,7 @@ int main()
     b = temp;
     cout << "After swapping a = " << a << " , b = " << b
          << endl;
- 
+
+    cout<<"Two Numbers are Swap Successfully "<<endl;
     return 0;
-}
+};

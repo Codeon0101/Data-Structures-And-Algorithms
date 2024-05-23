@@ -2,7 +2,6 @@
 using namespace std;
 
 // Painter Partition problem GeeksForGeeks 
-// Same as Book Allocation
 
 long long painter_partition(int arr[],int size,int k){
     long long start=0,end=0,ans=0,mid;
@@ -31,7 +30,7 @@ long long painter_partition(int arr[],int size,int k){
             }
         }
         return ans;
-}
+};
 
 int main(){
     int arr[] = {10,20,30,40};

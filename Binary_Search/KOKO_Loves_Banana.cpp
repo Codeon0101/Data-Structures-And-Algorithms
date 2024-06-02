@@ -2,7 +2,7 @@
 using namespace std;
 
 int koko_loves_banana(int piles[],int size,int h){
-        int start=1,ans=0,end=0;
+        int start=0,ans=0,end=0;
         long long sum=0;
         for(int i=0;i<size;i++){
             sum += piles[i];

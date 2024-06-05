@@ -11,9 +11,12 @@ int find_Min_in_sorted2(vector<int>& nums){
 
             if (nums[mid] > nums[end]) {
                 start = mid + 1;
-            } else if (nums[mid] < nums[end]) {
+            } 
+            else if (nums[mid] < nums[end]) {
                 end = mid;
-            } else {
+            }
+            else 
+            {
                 end--;
             }
         }

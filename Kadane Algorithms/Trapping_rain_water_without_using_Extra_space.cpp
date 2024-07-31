@@ -34,7 +34,7 @@ int trapping_rain_water(vector<int> &height){
 
         for(int k=height.size()-1;k>index;k--){
             if(maxi_left > height[k]){
-                answer += maxi_right - height[k];
+                answer += maxi_left - height[k];
             }
             else{
                 maxi_left = height[k];
@@ -45,7 +45,7 @@ int trapping_rain_water(vector<int> &height){
 };
 
 int main(){
-    vector<int>arr = {0,1,0,2,1,0,1,3,2,1,2,1};
+    vector<int>arr = {2,0,2};
     int ans = trapping_rain_water(arr);
     cout<<"The Units of Water will Fill = "<<ans;
 

@@ -30,7 +30,7 @@ int trapping_rain_water(vector<int> &height) {
     }
 
     return answer;
-}
+};
 
 int main() {
     vector<int> arr = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
@@ -38,4 +38,4 @@ int main() {
     cout << "The units of water trapped = " << ans << endl;
 
     return 0;
-}
+};

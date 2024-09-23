@@ -1,7 +1,7 @@
 // Rotate Image by 180 Degree (GeeksForGeeks problem)
 // Problem Link --> https://www.geeksforgeeks.org/problems/c-matrix-rotation-by-180-degree0745/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-/* #include<iostream>
+#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -48,12 +48,12 @@ int main(){
             cout<<endl;
         }
         return 0;
-    }; */
+    };
 
 
-// Another Solution To Soolve The Same Problem -->
+// Another Solution To Solve The Same Problem -->
 
-#include<iostream>
+/* #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -89,3 +89,4 @@ int main(){
     }
     return 0;
 };
+ */
